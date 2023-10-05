@@ -12,7 +12,7 @@ services:
     env_file:
       - ./.env.docker
   database:
-    platform: linux/86_64
+    platform: linux/x86_64
     image: mysql:latest
     environment:
       MYSQL_DATABASE: "mydocker"
